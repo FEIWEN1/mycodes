@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>登录按钮</title>
+<title>登录页面</title>
 </head>
 <body>
 	<form action="/login.action" method="post">
