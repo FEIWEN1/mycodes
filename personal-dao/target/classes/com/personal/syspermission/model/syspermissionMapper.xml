@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.personal.syspermissionDao">
+
+	<sql id="Base_Column_List">
+		id,name,type,url,percode,parentid,parentids,sortstring,available
+	</sql>
+	<!-- 根据用户id查询系统权限，涉及sys_permission（系统权限表）、sys_role_permission（权限_角色关系表）、sys_user_role（用户_角色关系表）、sys_role(角色表)、sys_user(用户表) -->
+	<select id="findPermissionListByUserId" parameterType="string"
+		resultType="Syspermission">
+		SELECT
+		<include refid="Base_Column_List" />
+		FROM
+		sys_permission
+		WHERE
+		id IN (
+		SELECT
+		sys_permission_id
+		FROM
+		sys_role_permission
+		WHERE
+		sys_role_id IN (
+		SELECT
+		sys_role_id
+		FROM
+		sys_user_role
+		WHERE
+		sys_user_id = #{id}
+		)
+		);
+	</select>
+
+</mapper>

@@ -1,0 +1,1301 @@
+[2017-09-29 09:52:05]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Thu Sep 28 11:24:14 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 09:52:05]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17f38f14: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@265602e5
+[2017-09-29 09:52:05]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing Root WebApplicationContext: startup date [Thu Sep 28 11:24:12 CST 2017]; root of context hierarchy
+[2017-09-29 09:52:05]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@265602e5: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 09:52:05]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@7ed15244 -- close() called multiple times.
+[2017-09-29 10:39:41]INFO  org.springframework.web.context.ContextLoader(line:272) -Root WebApplicationContext: initialization started
+[2017-09-29 10:39:41]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing Root WebApplicationContext: startup date [Fri Sep 29 10:39:41 CST 2017]; root of context hierarchy
+[2017-09-29 10:39:41]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext-shiro.xml]
+[2017-09-29 10:39:41]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext.xml]
+[2017-09-29 10:39:41]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 10:39:41]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 10:39:41]INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(line:177) -Loading properties file from class path resource [application.properties]
+[2017-09-29 10:39:41]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 10:39:41]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:41]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:41]INFO  com.mchange.v2.log.MLog(line:80) -MLog clients using log4j logging.
+[2017-09-29 10:39:42]INFO  com.mchange.v2.c3p0.C3P0Registry(line:204) -Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'dataSource' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'log4jdbcInterceptor' of type [class net.sf.log4jdbc.DataSourceSpyInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sysUserDao' of type [class com.personal.user.dao.SysUserDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userServiceImpl' of type [class com.personal.user.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'syspermissionDao' of type [class com.personal.permission.dao.SyspermissionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'permissionServiceImpl' of type [class com.personal.permission.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'credentialsMatcher' of type [class org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userRealm' of type [class com.personal.shiro.realm.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'cacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeCookie' of type [class org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeManager' of type [class org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:159) -Cache with name 'com.personal.shiro.realm.CustomRealm.authorizationCache' does not yet exist.  Creating now.
+[2017-09-29 10:39:42]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:166) -Added EhCache named [com.personal.shiro.realm.CustomRealm.authorizationCache]
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'securityManger' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'formAuthenticationFilter' of type [class com.personal.shiro.filter.MyFormAuthenticationFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:39:42]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@45b4d4a: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.ContextLoader(line:301) -Root WebApplicationContext: initialization completed in 1593 ms
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.DispatcherServlet(line:444) -FrameworkServlet 'springmvc': initialization started
+[2017-09-29 10:39:42]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 10:39:42 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 10:39:42]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from class path resource [spring-mvc/servlet-context.xml]
+[2017-09-29 10:39:42]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 10:39:42]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 10:39:42]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 10:39:42]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8307e49: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@45b4d4a
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add] onto handler 'demoAjaxController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add.*] onto handler 'demoAjaxController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add/] onto handler 'demoAjaxController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload.*] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload/] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest.*] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest/] onto handler 'demoUploadController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/login.action] onto handler 'loginController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache] onto handler 'clearShiroCache'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache.*] onto handler 'clearShiroCache'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache/] onto handler 'clearShiroCache'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login] onto handler 'userController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login.*] onto handler 'userController'
+[2017-09-29 10:39:42]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login/] onto handler 'userController'
+[2017-09-29 10:39:43]INFO  org.springframework.web.servlet.DispatcherServlet(line:463) -FrameworkServlet 'springmvc': initialization completed in 298 ms
+[2017-09-29 10:45:15]INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager(line:230) -Enabling session validation scheduler...
+[2017-09-29 10:45:38]INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource(line:462) -Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqub5x9q1kgqrhm1lpa24p|a380d5e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqub5x9q1kgqrhm1lpa24p|a380d5e, idleConnectionTestPeriod -> 1800, initialPoolSize -> 20, jdbcUrl -> jdbc:mysql://bdm289537284.my3w.com:3306/bdm289537284_db?characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 20, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2017-09-29 10:45:39]INFO  jdbc.connection(line:494) -1. Connection opened
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. Connection.new Connection returned 
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. Connection.getAutoCommit() returned true
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.new PreparedStatement returned 
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. Connection.prepareStatement(select
+		 
+		id,usercode,username,password,salt
+	 
+		from sys_user
+		where usercode=?) returned net.sf.log4jdbc.PreparedStatementSpy@4fc1f243
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.setString(1, "lisi") returned 
+[2017-09-29 10:45:39]INFO  jdbc.sqlonly(line:224) -select id,usercode,username,password,salt from sys_user where usercode='lisi' 
+[2017-09-29 10:45:39]INFO  jdbc.sqltiming(line:327) -select id,usercode,username,password,salt from sys_user where usercode='lisi'  {executed in 35 msec}
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.execute() returned true
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.new ResultSet returned 
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.ResultSetSpy@2ca90c15
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getType() returned 1003
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.next() returned true
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@64e9c25d - Field level information: 
+	com.mysql.jdbc.Field@2ed79b6d[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=id,originalColumnName=id,mysqlType=8(FIELD_TYPE_LONGLONG),flags= PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4d1d2921[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=usercode,originalColumnName=usercode,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@35775d14[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@2f7fe778[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@76358fa4[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=salt,originalColumnName=salt,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(1) returned 1
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(2) returned lisi
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(3) returned lisi
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(4) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(5) returned eteokues
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@3669949d - Field level information: 
+	com.mysql.jdbc.Field@2ed79b6d[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=id,originalColumnName=id,mysqlType=8(FIELD_TYPE_LONGLONG),flags= PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4d1d2921[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=usercode,originalColumnName=usercode,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@35775d14[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@2f7fe778[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@76358fa4[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=salt,originalColumnName=salt,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getLong(ID) returned 1
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getLong(id) returned 1
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(USERCODE) returned lisi
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(usercode) returned lisi
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(PASSWORD) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(password) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(SALT) returned eteokues
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(salt) returned eteokues
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.next() returned false
+[2017-09-29 10:45:39]INFO  jdbc.resultset(line:159) -1. ResultSet.close() returned 
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.getConnection() returned net.sf.log4jdbc.ConnectionSpy@4d9beb53
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. Connection.getMetaData() returned com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData@3776bdf3
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.getMoreResults() returned false
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.getUpdateCount() returned -1
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. PreparedStatement.close() returned 
+[2017-09-29 10:45:39]INFO  jdbc.connection(line:513) -1. Connection closed
+[2017-09-29 10:45:39]INFO  jdbc.audit(line:159) -1. Connection.close() returned 
+[2017-09-29 10:57:52]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 10:39:42 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 10:57:52]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8307e49: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@45b4d4a
+[2017-09-29 10:57:52]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing Root WebApplicationContext: startup date [Fri Sep 29 10:39:41 CST 2017]; root of context hierarchy
+[2017-09-29 10:57:52]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@45b4d4a: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 10:58:07]INFO  org.springframework.web.context.ContextLoader(line:272) -Root WebApplicationContext: initialization started
+[2017-09-29 10:58:07]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing Root WebApplicationContext: startup date [Fri Sep 29 10:58:07 CST 2017]; root of context hierarchy
+[2017-09-29 10:58:07]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext-shiro.xml]
+[2017-09-29 10:58:07]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext.xml]
+[2017-09-29 10:58:07]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 10:58:07]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 10:58:08]INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(line:177) -Loading properties file from class path resource [application.properties]
+[2017-09-29 10:58:08]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  com.mchange.v2.log.MLog(line:80) -MLog clients using log4j logging.
+[2017-09-29 10:58:08]INFO  com.mchange.v2.c3p0.C3P0Registry(line:204) -Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'dataSource' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'log4jdbcInterceptor' of type [class net.sf.log4jdbc.DataSourceSpyInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sysUserDao' of type [class com.personal.user.dao.SysUserDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userServiceImpl' of type [class com.personal.user.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'syspermissionDao' of type [class com.personal.permission.dao.SyspermissionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'permissionServiceImpl' of type [class com.personal.permission.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'credentialsMatcher' of type [class org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userRealm' of type [class com.personal.shiro.realm.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'cacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeCookie' of type [class org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeManager' of type [class org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:08]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:159) -Cache with name 'com.personal.shiro.realm.CustomRealm.authorizationCache' does not yet exist.  Creating now.
+[2017-09-29 10:58:08]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:166) -Added EhCache named [com.personal.shiro.realm.CustomRealm.authorizationCache]
+[2017-09-29 10:58:08]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'securityManger' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:09]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'formAuthenticationFilter' of type [class com.personal.shiro.filter.MyFormAuthenticationFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 10:58:09]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51bd6826: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 10:58:09]INFO  org.springframework.web.context.ContextLoader(line:301) -Root WebApplicationContext: initialization completed in 1552 ms
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.DispatcherServlet(line:444) -FrameworkServlet 'springmvc': initialization started
+[2017-09-29 10:58:09]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 10:58:09 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 10:58:09]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from class path resource [spring-mvc/servlet-context.xml]
+[2017-09-29 10:58:09]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 10:58:09]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 10:58:09]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 10:58:09]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14caa6cc: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@51bd6826
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add] onto handler 'demoAjaxController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add.*] onto handler 'demoAjaxController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add/] onto handler 'demoAjaxController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload.*] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload/] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest.*] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest/] onto handler 'demoUploadController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/login.action] onto handler 'loginController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache] onto handler 'clearShiroCache'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache.*] onto handler 'clearShiroCache'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache/] onto handler 'clearShiroCache'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login] onto handler 'userController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login.*] onto handler 'userController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login/] onto handler 'userController'
+[2017-09-29 10:58:09]INFO  org.springframework.web.servlet.DispatcherServlet(line:463) -FrameworkServlet 'springmvc': initialization completed in 326 ms
+[2017-09-29 10:58:15]INFO  net.sf.ehcache.util.UpdateChecker(line:98) -New update(s) found: 2.6.5 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.6]. Please check http://ehcache.org for the latest version.
+[2017-09-29 10:58:16]INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager(line:230) -Enabling session validation scheduler...
+[2017-09-29 11:06:33]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 10:58:09 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 11:06:33]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14caa6cc: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@51bd6826
+[2017-09-29 11:06:33]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing Root WebApplicationContext: startup date [Fri Sep 29 10:58:07 CST 2017]; root of context hierarchy
+[2017-09-29 11:06:33]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51bd6826: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 11:06:47]INFO  org.springframework.web.context.ContextLoader(line:272) -Root WebApplicationContext: initialization started
+[2017-09-29 11:06:47]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing Root WebApplicationContext: startup date [Fri Sep 29 11:06:47 CST 2017]; root of context hierarchy
+[2017-09-29 11:06:47]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext-shiro.xml]
+[2017-09-29 11:06:47]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext.xml]
+[2017-09-29 11:06:47]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 11:06:47]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 11:06:48]INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(line:177) -Loading properties file from class path resource [application.properties]
+[2017-09-29 11:06:48]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  com.mchange.v2.log.MLog(line:80) -MLog clients using log4j logging.
+[2017-09-29 11:06:48]INFO  com.mchange.v2.c3p0.C3P0Registry(line:204) -Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'dataSource' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'log4jdbcInterceptor' of type [class net.sf.log4jdbc.DataSourceSpyInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sysUserDao' of type [class com.personal.user.dao.SysUserDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userServiceImpl' of type [class com.personal.user.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'syspermissionDao' of type [class com.personal.permission.dao.SyspermissionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'permissionServiceImpl' of type [class com.personal.permission.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'credentialsMatcher' of type [class org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userRealm' of type [class com.personal.shiro.realm.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'cacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeCookie' of type [class org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:48]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeManager' of type [class org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:49]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:159) -Cache with name 'com.personal.shiro.realm.CustomRealm.authorizationCache' does not yet exist.  Creating now.
+[2017-09-29 11:06:49]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:166) -Added EhCache named [com.personal.shiro.realm.CustomRealm.authorizationCache]
+[2017-09-29 11:06:49]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'securityManger' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:49]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'formAuthenticationFilter' of type [class com.personal.shiro.filter.MyFormAuthenticationFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:06:49]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9368016: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 11:06:49]INFO  org.springframework.web.context.ContextLoader(line:301) -Root WebApplicationContext: initialization completed in 1469 ms
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.DispatcherServlet(line:444) -FrameworkServlet 'springmvc': initialization started
+[2017-09-29 11:06:49]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 11:06:49 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 11:06:49]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from class path resource [spring-mvc/servlet-context.xml]
+[2017-09-29 11:06:49]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 11:06:49]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 11:06:49]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 11:06:49]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e8c1f43: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@9368016
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add] onto handler 'demoAjaxController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add.*] onto handler 'demoAjaxController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add/] onto handler 'demoAjaxController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload.*] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload/] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest.*] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest/] onto handler 'demoUploadController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/login.action] onto handler 'loginController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache] onto handler 'clearShiroCache'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache.*] onto handler 'clearShiroCache'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache/] onto handler 'clearShiroCache'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login] onto handler 'userController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login.*] onto handler 'userController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login/] onto handler 'userController'
+[2017-09-29 11:06:49]INFO  org.springframework.web.servlet.DispatcherServlet(line:463) -FrameworkServlet 'springmvc': initialization completed in 271 ms
+[2017-09-29 11:06:58]INFO  net.sf.ehcache.util.UpdateChecker(line:98) -New update(s) found: 2.6.5 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.6]. Please check http://ehcache.org for the latest version.
+[2017-09-29 11:06:59]INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager(line:230) -Enabling session validation scheduler...
+[2017-09-29 11:07:24]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 11:06:49 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 11:07:24]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e8c1f43: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@9368016
+[2017-09-29 11:07:24]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing Root WebApplicationContext: startup date [Fri Sep 29 11:06:47 CST 2017]; root of context hierarchy
+[2017-09-29 11:07:24]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9368016: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 11:07:50]INFO  org.springframework.web.context.ContextLoader(line:272) -Root WebApplicationContext: initialization started
+[2017-09-29 11:07:50]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing Root WebApplicationContext: startup date [Fri Sep 29 11:07:50 CST 2017]; root of context hierarchy
+[2017-09-29 11:07:50]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext-shiro.xml]
+[2017-09-29 11:07:50]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from file [/Users/feiwen/mysi-tech/personal-front/target/classes/applicationContext.xml]
+[2017-09-29 11:07:50]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 11:07:50]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 11:07:51]INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer(line:177) -Loading properties file from class path resource [application.properties]
+[2017-09-29 11:07:51]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  com.mchange.v2.log.MLog(line:80) -MLog clients using log4j logging.
+[2017-09-29 11:07:51]INFO  com.mchange.v2.c3p0.C3P0Registry(line:204) -Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'dataSource' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'log4jdbcInterceptor' of type [class net.sf.log4jdbc.DataSourceSpyInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sysUserDao' of type [class com.personal.user.dao.SysUserDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userServiceImpl' of type [class com.personal.user.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'syspermissionDao' of type [class com.personal.permission.dao.SyspermissionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'permissionServiceImpl' of type [class com.personal.permission.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'credentialsMatcher' of type [class org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'userRealm' of type [class com.personal.shiro.realm.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'cacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeCookie' of type [class org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'rememberMeManager' of type [class org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:159) -Cache with name 'com.personal.shiro.realm.CustomRealm.authorizationCache' does not yet exist.  Creating now.
+[2017-09-29 11:07:51]INFO  org.apache.shiro.cache.ehcache.EhCacheManager(line:166) -Added EhCache named [com.personal.shiro.realm.CustomRealm.authorizationCache]
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'securityManger' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1350) -Bean 'formAuthenticationFilter' of type [class com.personal.shiro.filter.MyFormAuthenticationFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-29 11:07:51]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b3d0353: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 11:07:52]INFO  org.springframework.web.context.ContextLoader(line:301) -Root WebApplicationContext: initialization completed in 1463 ms
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.DispatcherServlet(line:444) -FrameworkServlet 'springmvc': initialization started
+[2017-09-29 11:07:52]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:495) -Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 11:07:52 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 11:07:52]INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader(line:315) -Loading XML bean definitions from class path resource [spring-mvc/servlet-context.xml]
+[2017-09-29 11:07:52]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:201) -JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2017-09-29 11:07:52]INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner(line:209) -JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2017-09-29 11:07:52]INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:139) -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2017-09-29 11:07:52]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:557) -Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@791b6956: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b3d0353
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add] onto handler 'demoAjaxController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add.*] onto handler 'demoAjaxController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/ajax/demo/add/] onto handler 'demoAjaxController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload.*] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/upload/] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest.*] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/file/demo/uploadOfRequest/] onto handler 'demoUploadController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/login.action] onto handler 'loginController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache] onto handler 'clearShiroCache'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache.*] onto handler 'clearShiroCache'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/shiro/clearCache/] onto handler 'clearShiroCache'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login] onto handler 'userController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login.*] onto handler 'userController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping(line:314) -Mapped URL path [/user/space/login/] onto handler 'userController'
+[2017-09-29 11:07:52]INFO  org.springframework.web.servlet.DispatcherServlet(line:463) -FrameworkServlet 'springmvc': initialization completed in 294 ms
+[2017-09-29 11:07:53]INFO  net.sf.ehcache.util.UpdateChecker(line:98) -New update(s) found: 2.6.5 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.6]. Please check http://ehcache.org for the latest version.
+[2017-09-29 11:07:57]INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager(line:230) -Enabling session validation scheduler...
+[2017-09-29 11:08:13]INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource(line:462) -Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqub5x9q1khqz0a1vr8esm|540fbe1d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqub5x9q1khqz0a1vr8esm|540fbe1d, idleConnectionTestPeriod -> 1800, initialPoolSize -> 20, jdbcUrl -> jdbc:mysql://bdm289537284.my3w.com:3306/bdm289537284_db?characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 20, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2017-09-29 11:08:14]INFO  jdbc.connection(line:494) -1. Connection opened
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. Connection.new Connection returned 
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. Connection.getAutoCommit() returned true
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.new PreparedStatement returned 
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. Connection.prepareStatement(select
+		 
+		id,usercode,username,password,salt
+	 
+		from sys_user
+		where usercode=?) returned net.sf.log4jdbc.PreparedStatementSpy@6220883f
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.setString(1, "lisi") returned 
+[2017-09-29 11:08:14]INFO  jdbc.sqlonly(line:224) -select id,usercode,username,password,salt from sys_user where usercode='lisi' 
+[2017-09-29 11:08:14]INFO  jdbc.sqltiming(line:327) -select id,usercode,username,password,salt from sys_user where usercode='lisi'  {executed in 28 msec}
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.execute() returned true
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.new ResultSet returned 
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.ResultSetSpy@6405691
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getType() returned 1003
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.next() returned true
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@1999161b - Field level information: 
+	com.mysql.jdbc.Field@117a53be[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=id,originalColumnName=id,mysqlType=8(FIELD_TYPE_LONGLONG),flags= PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@760fe7e8[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=usercode,originalColumnName=usercode,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@e426ce6[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@2afb775a[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@6358cbc1[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=salt,originalColumnName=salt,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(1) returned 1
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(2) returned lisi
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(3) returned lisi
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(4) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(5) returned eteokues
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@1528ea5d - Field level information: 
+	com.mysql.jdbc.Field@117a53be[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=id,originalColumnName=id,mysqlType=8(FIELD_TYPE_LONGLONG),flags= PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@760fe7e8[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=usercode,originalColumnName=usercode,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@e426ce6[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@2afb775a[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+	com.mysql.jdbc.Field@6358cbc1[catalog=bdm289537284_db,tableName=sys_user,originalTableName=sys_user,columnName=salt,originalColumnName=salt,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=UTF-8]
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getLong(ID) returned 1
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getLong(id) returned 1
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(USERCODE) returned lisi
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(usercode) returned lisi
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(PASSWORD) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(password) returned cb571f7bd7a6f73ab004a70322b963d5
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(SALT) returned eteokues
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.getString(salt) returned eteokues
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.wasNull() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.next() returned false
+[2017-09-29 11:08:14]INFO  jdbc.resultset(line:159) -1. ResultSet.close() returned 
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.getConnection() returned net.sf.log4jdbc.ConnectionSpy@31328a85
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. Connection.getMetaData() returned com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData@6d243afe
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.getMoreResults() returned false
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.getUpdateCount() returned -1
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. PreparedStatement.close() returned 
+[2017-09-29 11:08:14]INFO  jdbc.connection(line:513) -1. Connection closed
+[2017-09-29 11:08:14]INFO  jdbc.audit(line:159) -1. Connection.close() returned 
+[2017-09-29 14:09:08]WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner(line:608) -com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@34a9a685 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+[2017-09-29 14:09:08]WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner(line:624) -com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@34a9a685 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4d220d31 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@76903386 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7526df39 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4b095345
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5139fd7f
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3631c682
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7ddf9c99
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@63a2415e
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3171b56c
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@203dded0
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3def3a39
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@24d793f3
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4532496a
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6871f1a3
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@10af39e7
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6002753f
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@415fac57
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@702ba548
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@41705380
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@357a1a10
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+
+[2017-09-29 14:30:53]WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner(line:416) -Task com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4d220d31 (in deadlocked PoolThread) failed to complete in maximum time 60000ms. Trying interrupt().
+[2017-09-29 14:30:53]WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner(line:416) -Task com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7526df39 (in deadlocked PoolThread) failed to complete in maximum time 60000ms. Trying interrupt().
+[2017-09-29 14:30:53]WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner(line:416) -Task com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@76903386 (in deadlocked PoolThread) failed to complete in maximum time 60000ms. Trying interrupt().
+[2017-09-29 14:30:54]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@76903386 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:30:54]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7526df39 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:30:54]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4d220d31 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7526df39]
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@76903386]
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4d220d31]
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[2017-09-29 14:30:54]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:30:54]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[2017-09-29 14:30:54]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@63a2415e -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1295)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1248)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4532496a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3631c682 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3631c682]
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7ddf9c99 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3171b56c -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3def3a39 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5139fd7f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@24d793f3 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@203dded0 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4b095345 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@203dded0]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@24d793f3]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5139fd7f]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3def3a39]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3171b56c]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7ddf9c99]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4532496a]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@63a2415e]
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4b095345]
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:31:13]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:31:13]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@415fac57 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6002753f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@41705380 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@702ba548 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@10af39e7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6871f1a3 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1841) -com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@357a1a10 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.UnknownHostException: bdm289537284.my3w.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1164)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1098)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:244)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+	... 19 more
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6871f1a3]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@10af39e7]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@702ba548]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@41705380]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6002753f]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@415fac57]
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:1853) -A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@357a1a10]
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 14:32:02]ERROR com.mchange.v2.resourcepool.BasicResourcePool(line:866) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[2017-09-29 14:32:02]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.
+[2017-09-29 15:10:18]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Sep 29 11:07:52 CST 2017]; parent: Root WebApplicationContext
+[2017-09-29 15:10:18]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@791b6956: defining beans [demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b3d0353
+[2017-09-29 15:10:18]INFO  org.springframework.web.context.support.XmlWebApplicationContext(line:1020) -Closing Root WebApplicationContext: startup date [Fri Sep 29 11:07:50 CST 2017]; root of context hierarchy
+[2017-09-29 15:10:18]INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory(line:433) -Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b3d0353: defining beans [securityManger,userRealm,shiroFilter,org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0,cacheManager,sessionManager,rememberMeManager,credentialsMatcher,formAuthenticationFilter,rememberMeCookie,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,demoAjaxController,demoUploadController,loginController,clearShiroCache,customRealm,userController,demoServiceImpl,permissionServiceImpl,userServiceImpl,demoDao,syspermissionDao,sysUserDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.personal.base.until.SpringContextHolder#0,dataSource,log4jdbcInterceptor,dataSourceLog4jdbcAutoProxyCreator,sqlSessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+[2017-09-29 15:10:18]WARN  com.mchange.v2.resourcepool.BasicResourcePool(line:1202) -com.mchange.v2.resourcepool.BasicResourcePool@6bc01708 -- close() called multiple times.

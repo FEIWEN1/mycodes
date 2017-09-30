@@ -1,0 +1,71 @@
+[2017-08-25 16:54:30]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 16:54:30]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 16:54:30]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 16:54:29.342(Timestamp), 2017-08-25 16:54:29.342(Timestamp)
+[2017-08-25 16:55:36]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 16:55:36]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 16:55:36]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 16:55:35.686(Timestamp), 2017-08-25 16:55:35.686(Timestamp)
+[2017-08-25 16:56:34]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 16:56:34]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 16:56:34]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 16:56:33.55(Timestamp), 2017-08-25 16:56:33.55(Timestamp)
+[2017-08-25 16:57:45]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 16:57:45]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 16:57:45]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 16:57:44.66(Timestamp), 2017-08-25 16:57:44.66(Timestamp)
+[2017-08-25 17:02:19]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:02:19]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:02:19]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:02:18.476(Timestamp), 2017-08-25 17:02:18.476(Timestamp)
+[2017-08-25 17:09:01]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:09:01]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:09:01]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:09:00.875(Timestamp), 2017-08-25 17:09:00.875(Timestamp)
+[2017-08-25 17:17:45]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:17:45]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:17:45]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:17:45.087(Timestamp), 2017-08-25 17:17:45.087(Timestamp)
+[2017-08-25 17:18:11]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:18:11]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:18:11]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:18:11.608(Timestamp), 2017-08-25 17:18:11.608(Timestamp)
+[2017-08-25 17:21:42]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:21:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:21:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 86(Long)
+[2017-08-25 17:23:13]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:23:13]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:23:13]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:23:13.471(Timestamp), 2017-08-25 17:23:13.471(Timestamp)
+[2017-08-25 17:23:14]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:23:14]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:23:14]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 86(Long)
+[2017-08-25 17:24:30]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:24:30]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:24:30]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:24:30.281(Timestamp), 2017-08-25 17:24:30.281(Timestamp)
+[2017-08-25 17:24:31]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 86(Long)
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 87(Long)
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 88(Long)
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:24:31]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 89(Long)
+[2017-08-25 17:27:41]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 北京思特奇科技股份有限公司(String), 海淀区花园路2号牡丹科技楼5层(String), 7500(Long), 2017-08-25 17:27:41.906(Timestamp), 2017-08-25 17:27:41.906(Timestamp)
+[2017-08-25 17:27:42]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 91(Long)
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 92(Long)
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: delete from demo where id =? 
+[2017-08-25 17:27:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 93(Long)
+[2017-08-25 17:31:11]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:31:11]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select enterpriseName,address,salary,joinTime,leaveTime from demo where id=? 
+[2017-08-25 17:31:11]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 83(Long)
+[2017-08-25 17:31:11]DEBUG java.sql.ResultSet(line:28) -<==    Columns: enterpriseName, address, salary, joinTime, leaveTime
+[2017-08-25 17:31:11]DEBUG java.sql.ResultSet(line:28) -<==        Row: 山西博华科技有限公司, 山西省太原市南中环街, 3000, 2017-08-24 17:10:40.0, 2017-08-24 16:28:15.0
+[2017-08-25 17:37:06]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:37:06]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select count(*) from demo 
+[2017-08-25 17:37:06]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==    Columns: count(*)
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==        Row: 3
+[2017-08-25 17:37:06]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select enterpriseName,address,salary,joinTime,leaveTime from demo limit ?,? 
+[2017-08-25 17:37:06]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 0(Integer), 10(Integer)
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==    Columns: enterpriseName, address, salary, joinTime, leaveTime
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==        Row: 北京思特奇科技有限公司, 海淀区花园路2号牡丹科技楼, 7500, 2017-08-23 10:29:40.0, 2017-05-31 00:00:00.0
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==        Row: 北京普元云动科技有限公司, 丰台区南四环西路188号 中国邮政储蓄银行, 12000, 2017-06-21 00:00:00.0, 2018-02-20 00:00:00.0
+[2017-08-25 17:37:06]DEBUG java.sql.ResultSet(line:28) -<==        Row: 山西博华科技有限公司, 山西省太原市南中环街, 3000, 2017-08-24 17:10:40.0, 2017-08-24 16:28:15.0

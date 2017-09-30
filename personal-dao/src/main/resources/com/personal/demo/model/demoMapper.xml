@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--准备mybatis的mapper文件：
+1.namespace需和dao实现类getMybatisMapperNamesapce方法返回值一致
+2.创建id分别为insert、delete、update、getById、findPage、findPageCount的语句
+3.分页查询语句的分页参数必须为  limit #{offset},#{limit}
+ -->
+<mapper namespace="com.personal.demo.demoDao">
+	<sql id="Base_Column_list">
+		enterpriseName,address,salary,joinTime,leaveTime
+	</sql>
+	<insert id="insert" parameterType="com.personal.demo.model.Demo">
+		insert into demo
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="enterpriseName !=null">enterpriseName,</if>
+			<if test="address !=null">address,</if>
+			<if test="salary !=null">salary,</if>
+			<if test="joinTime !=null">joinTime,</if>
+			<if test="leaveTime !=null">leaveTime,</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="enterpriseName !=null">#{enterpriseName,jdbcType=VARCHAR},</if>
+			<if test="address !=null">#{address ,jdbcType=VARCHAR},</if>
+			<if test="salary!=null">#{salary,jdbcType=BIGINT},</if>
+			<if test="joinTime!=null">#{joinTime,jdbcType=TIMESTAMP},</if>
+			<if test="leaveTime!=null">#{leaveTime,jdbcType=TIMESTAMP},</if>
+		</trim>
+	</insert>
+	<delete id="delete" parameterType="Long">
+		delete from demo where id =#{id,jdbcType=BIGINT}
+	</delete>
+	<update id="update" parameterType="Long">
+		update demo
+		<set>
+			<if test="enterpriseName !=null">enterpriseName =#{enterpriseName,jdbcType=VARCHAR},</if>
+			<if test="address !=null">address=#{address ,jdbcType=VARCHAR},</if>
+			<if test="salary !=null">salary=#{salary,jdbcType=BIGINT},</if>
+			<if test="joinTime !=null">joinTime=#{joinTime,jdbcType=TIMESTAMP},</if>
+			<if test="leaveTime !=null">leaveTime=#{leaveTime,jdbcType=TIMESTAMP},</if>
+		</set>
+		<where>
+			id=#{id,jdbcType=BIGINT}
+		</where>
+	</update>
+	<select id="getById" parameterType="Long" resultType="com.personal.demo.model.Demo"> 
+		select 
+		<include refid="Base_Column_list"/>
+		from demo
+		where id=#{id,jdbcType=BIGINT}
+	</select>
+	<select id="findPage" parameterType="map" resultType="com.personal.demo.model.Demo">
+		select
+		<include refid="Base_Column_list"/>
+		from demo
+		<where>
+			<if test="status !=null">
+				status=#{status}
+			</if>
+		</where>
+		<if test="orderBy !=null">
+			order by #{orderBy} #{order}
+		</if>
+		limit #{offset},#{limit}
+	</select>
+	<select id="findPageCount" parameterType="map" resultType="Long">
+		select  count(*)
+		from demo
+		<where>
+			<if test="status !=null">
+				status=#{status}
+			</if>
+		</where>
+	</select>
+</mapper>

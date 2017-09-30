@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.personal</groupId>
+		<artifactId>personal-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>personal-front</artifactId>
+	<packaging>war</packaging>
+	<name>personal-front Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.personal</groupId>
+			<artifactId>personal-controller</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>personal-front</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
+	<profiles>
+		<profile>
+			<id>local</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<mvn.jdbc.driver>com.mysql.jdbc.Driver</mvn.jdbc.driver>
+				<mvn.jdbc.url>jdbc:mysql://bdm289537284.my3w.com:3306/bdm289537284_db?characterEncoding=utf8</mvn.jdbc.url>
+				<mvn.jdbc.username>bdm289537284</mvn.jdbc.username>
+				<mvn.jdbc.password>6822243wf</mvn.jdbc.password>
+			</properties>
+		</profile>
+	</profiles>
+</project>

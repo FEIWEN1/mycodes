@@ -1,0 +1,223 @@
+[2017-09-26 09:57:17]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 09:57:17]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 09:57:17]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 09:57:17]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 09:57:17]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 10:10:08]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 10:10:08]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 10:10:08]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 10:10:08]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 10:10:08]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 10:16:11]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 10:16:11]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 10:16:11]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 10:16:11]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 10:16:11]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 10:22:24]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 10:22:24]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 10:22:24]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 10:22:24]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 10:22:24]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 10:41:00]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 10:41:01]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 10:41:01]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 10:41:01]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 10:41:01]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 10:46:18]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 10:46:18]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 10:46:18]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 10:46:18]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 10:46:18]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:09:44]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:09:44]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:09:44]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:09:44]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:09:44]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:10:00]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:17:12]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:17:12]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:17:12]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:17:12]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:17:12]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:17:31]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:19:30]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:19:30]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:19:30]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:19:30]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:19:30]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:19:48]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:22:50]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:22:50]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:22:50]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:22:50]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:22:50]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:23:03]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:25:01]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:25:01]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:25:01]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:25:01]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:25:01]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:25:13]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:31:26]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:31:26]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 11:31:26]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 11:31:26]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 11:31:26]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 11:31:39]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 11:31:39]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 11:31:39]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:03:07]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:03:07]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 15:03:07]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:03:07]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 15:03:07]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 15:03:27]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:03:27]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 15:03:27]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:10:00]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:10:00]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 15:10:00]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:12:17]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:12:17]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 15:12:17]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:12:17]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 15:12:17]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 15:12:33]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:12:33]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 15:12:33]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:12:33]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 15:12:33]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, null, 1, 0/1, 1., 1
+[2017-09-26 15:12:33]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 15:25:39]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:25:39]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 15:25:39]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:25:39]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 15:25:39]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 15:25:45]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:25:45]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 15:25:45]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:25:45]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 15:25:45]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 15:25:45]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 15:45:43]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:45:43]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 15:45:43]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:45:43]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 15:45:43]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 15:46:03]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 15:46:03]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 15:46:03]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 15:46:03]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 15:46:03]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 15:46:03]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 16:32:02]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:32:02]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 16:32:02]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:32:02]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 16:32:02]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 16:32:27]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:32:27]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 16:32:27]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:32:27]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 16:32:27]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 16:32:27]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 16:33:08]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:33:08]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 16:33:08]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:33:08]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 16:33:08]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 16:33:08]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 16:37:45]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:37:45]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 16:37:45]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:37:45]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 16:37:45]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 16:37:54]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:37:54]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 16:37:54]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:37:54]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 16:37:54]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 16:37:54]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 16:48:17]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:48:18]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 16:48:18]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:48:18]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 16:48:18]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 16:48:29]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 16:48:29]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 16:48:29]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 16:48:29]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 16:48:29]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 16:48:29]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 17:25:40]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 17:25:40]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 17:25:40]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 17:25:40]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 17:25:40]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 17:25:51]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 17:25:51]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 17:25:51]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 17:25:51]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 17:25:51]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 17:25:51]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 17:29:20]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 17:29:20]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 17:29:20]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 17:31:03]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 17:31:03]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 17:31:03]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 17:31:03]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 17:31:03]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 19:58:22]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 19:58:22]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 19:58:22]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 19:58:22]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 19:58:22]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, 111111, eteokues
+[2017-09-26 19:59:03]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 19:59:03]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 19:59:03]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 19:59:03]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 19:59:03]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 19:59:03]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 20:06:12]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:06:12]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 20:06:12]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:06:53]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:06:53]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: SELECT id,name,type,url,percode,parentid,parentids,sortstring,available FROM sys_permission WHERE id IN ( SELECT sys_permission_id FROM sys_role_permission WHERE sys_role_id IN ( SELECT sys_role_id FROM sys_user_role WHERE sys_user_id = ? ) ); 
+[2017-09-26 20:06:53]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:06:53]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, name, type, url, percode, parentid, parentids, sortstring, available
+[2017-09-26 20:06:53]DEBUG java.sql.ResultSet(line:28) -<==        Row: 11, 商品管理, menu, /item/queryItem.action, jj, 1, 0/1, 1., 1
+[2017-09-26 20:06:53]DEBUG java.sql.ResultSet(line:28) -<==        Row: 12, 文件上传, permission, /item/addItem.action, file:download, 11, 0/1/11, , 1
+[2017-09-26 20:20:00]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:20:00]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:20:00]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:20:00]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:20:00]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-26 20:20:51]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:20:51]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:20:51]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:20:51]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:20:51]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, f0c961f0045db9bfcfd61f59c1f2f8b5, eteokues
+[2017-09-26 20:24:42]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:24:42]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:24:42]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:25:15]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:25:15]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:25:15]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:25:15]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:25:15]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-26 20:27:49]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:27:49]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:27:49]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:27:49]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:27:49]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-26 20:34:06]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:34:06]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:34:06]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:34:06]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:34:06]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-26 20:37:31]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-26 20:37:31]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-26 20:37:31]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-26 20:37:32]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-26 20:37:32]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues

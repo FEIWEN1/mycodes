@@ -1,0 +1,6 @@
+[2017-08-25 17:00:13]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:00:13]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:00:13]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 山西博华科技有限公司(String), 山西省太原市南中环街(String), 3500(Long), 2017-08-25 17:00:13.526(Timestamp), 2017-08-25 17:00:13.526(Timestamp)
+[2017-08-25 17:15:29]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-25 17:15:29]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: insert into demo ( enterpriseName, address, salary, joinTime, leaveTime ) values ( ?, ?, ?, ?, ? ) 
+[2017-08-25 17:15:29]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 山西博华科技有限公司(String), 山西省太原市南中环街(String), 3500(Long), 2017-08-25 17:15:28.858(Timestamp), 2017-08-25 17:15:28.858(Timestamp)

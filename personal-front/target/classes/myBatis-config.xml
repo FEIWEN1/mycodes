@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+				"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="lazyLoadingEnabled" value="false"/>
+	</settings>
+	<!-- 类的别名 -->
+	<typeAliases>
+		<typeAlias type="com.personal.demo.model.Demo" alias="Demo"/>
+		<typeAlias type="com.personal.user.model.SysUser" alias="SysUser"/>
+		<typeAlias type="com.personal.permission.model.Syspermission" alias="Syspermission"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/personal/demo/model/demoMapper.xml"/>
+		<mapper resource="com/personal/personal/model/sysuserMapper.xml"/>
+		<mapper resource="com/personal/syspermission/model/syspermissionMapper.xml"/>
+	</mappers>
+</configuration>

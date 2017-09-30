@@ -1,0 +1,17 @@
+构建记录
+1.建立maven的父级项目
+2.构建base项目，主要功能包括：指定项目依赖的jar包、dao层父级类
+3.dao项目demo类、相对应的测试类
+4.在dao项目中加入了lo4j
+5.service项目中的demo类，相对应的测试类
+6.contrller项目
+7.front项目：配置文件、拦截器
+
+8.时间调度框架
+9.mybatis代理模式
+10.读写分离
+11. 文件的工具类
+12.sprintmvc的上传与下载
+
+<!-- 权限控制 -->
+	<!-- Spring Security 配置 -->

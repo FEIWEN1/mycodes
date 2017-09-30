@@ -1,0 +1,15 @@
+[2017-09-27 17:07:44]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-27 17:07:44]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-27 17:07:44]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-27 17:07:44]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-27 17:07:44]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-27 20:15:13]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-27 20:15:13]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-27 20:15:13]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-27 20:15:13]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-27 20:15:13]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues
+[2017-09-27 20:15:41]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-09-27 20:15:41]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select id,usercode,username,password,salt from sys_user where usercode=? 
+[2017-09-27 20:15:41]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: lisi(String)
+[2017-09-27 20:15:41]DEBUG java.sql.ResultSet(line:28) -<==    Columns: id, usercode, username, password, salt
+[2017-09-27 20:15:41]DEBUG java.sql.ResultSet(line:28) -<==        Row: 1, lisi, lisi, cb571f7bd7a6f73ab004a70322b963d5, eteokues

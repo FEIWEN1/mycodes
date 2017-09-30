@@ -1,0 +1,29 @@
+[2017-08-24 17:46:39]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-24 17:46:39]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select enterpriseName,address,salary,joinTime,leaveTime from demo where id=? 
+[2017-08-24 17:46:39]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 83(Long)
+[2017-08-24 17:46:39]DEBUG java.sql.ResultSet(line:28) -<==    Columns: enterpriseName, address, salary, joinTime, leaveTime
+[2017-08-24 17:46:39]DEBUG java.sql.ResultSet(line:28) -<==        Row: 山西博华科技有限公司, 山西省太原市南中环街, 3000, 2017-08-24 17:10:40.0, 2017-08-24 16:28:15.0
+[2017-08-24 20:51:27]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-24 20:51:52]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-24 20:51:53]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select count(*) from demo limit ?,? 
+[2017-08-24 20:51:53]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: null, null
+[2017-08-24 20:52:23]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-24 20:52:23]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select count(*) from demo 
+[2017-08-24 20:52:23]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 
+[2017-08-24 20:52:23]DEBUG java.sql.ResultSet(line:28) -<==    Columns: count(*)
+[2017-08-24 20:52:23]DEBUG java.sql.ResultSet(line:28) -<==        Row: 3
+[2017-08-24 20:52:23]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select enterpriseName,address,salary,joinTime,leaveTime from demo limit ?,? 
+[2017-08-24 20:52:23]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 2(Integer), 2(Integer)
+[2017-08-24 20:52:23]DEBUG java.sql.ResultSet(line:28) -<==    Columns: enterpriseName, address, salary, joinTime, leaveTime
+[2017-08-24 20:52:23]DEBUG java.sql.ResultSet(line:28) -<==        Row: 山西博华科技有限公司, 山西省太原市南中环街, 3000, 2017-08-24 17:10:40.0, 2017-08-24 16:28:15.0
+[2017-08-24 20:53:08]DEBUG java.sql.Connection(line:28) -ooo Connection Opened
+[2017-08-24 20:53:08]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select count(*) from demo 
+[2017-08-24 20:53:08]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==    Columns: count(*)
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==        Row: 3
+[2017-08-24 20:53:09]DEBUG java.sql.PreparedStatement(line:28) -==>  Executing: select enterpriseName,address,salary,joinTime,leaveTime from demo limit ?,? 
+[2017-08-24 20:53:09]DEBUG java.sql.PreparedStatement(line:28) -==> Parameters: 0(Integer), 10(Integer)
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==    Columns: enterpriseName, address, salary, joinTime, leaveTime
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==        Row: 北京思特奇科技有限公司, 海淀区花园路2号牡丹科技楼, 7500, 2017-08-23 10:29:40.0, 2017-05-31 00:00:00.0
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==        Row: 北京普元云动科技有限公司, 丰台区南四环西路188号 中国邮政储蓄银行, 12000, 2017-06-21 00:00:00.0, 2018-02-20 00:00:00.0
+[2017-08-24 20:53:09]DEBUG java.sql.ResultSet(line:28) -<==        Row: 山西博华科技有限公司, 山西省太原市南中环街, 3000, 2017-08-24 17:10:40.0, 2017-08-24 16:28:15.0
