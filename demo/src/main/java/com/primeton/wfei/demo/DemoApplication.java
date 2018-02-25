@@ -17,6 +17,7 @@ public class DemoApplication {
 	@Bean
 	@LoadBalanced
 	public RestTemplate restTemplate(){
+		System.out.println("hahahah");
 		return new RestTemplate();
 	}
 
