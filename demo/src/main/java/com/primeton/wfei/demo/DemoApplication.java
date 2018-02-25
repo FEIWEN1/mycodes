@@ -17,6 +17,7 @@ public class DemoApplication {
 	@Bean
 	@LoadBalanced
 	public RestTemplate restTemplate(){
+		System.out.println("sss");
 		return new RestTemplate();
 	}
 
